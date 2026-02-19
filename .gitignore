@@ -1,6 +1,7 @@
 venv/
-__pycache__/
 .ipynb_checkpoints/
-*.pyc
-*.csv
-!data/*.csv
+__pycache__/
+
+# Allow these specific folders even if they contain CSVs/PNGs
+!data/
+!reports/
